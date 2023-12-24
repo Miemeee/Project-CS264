@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    
+    <title>Form | ระบบยื่นคำร้อง</title>
+    <link rel="stylesheet" href="student_form_css.css">
+    <div class="banner">
+        <div class="heading">
+            <h2>คำร้องเพิ่ม-ถอนรายวิชา</h2>
+        </div>
+        <div class="logo">
+            <img alt ="logo" src="logo.png" width="100px" > 
+        </div>
+    </div>
+</head>
+<body>
+    <div class="container">
+        <div class="title">ข้อมูลส่วนตัว</div>
+        <form action="#">
+            <div class="date-details">
+                <input type="date" id="date">
+            </div>
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1" >
+                <input type="radio" name="gender" id="dot-2" >
+                <input type="radio" name="gender" id="dot-3" >
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">นาย</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">นาง</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender">นางสาว</span>
+                    </label>
+                </div>
+            </div>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="detials">ชื่อ</span>
+                    <input type="text" placeholder="name" id="name" >
+                </div>
+                <div class="input-box">
+                    <span class="detials">นามสกุล</span>
+                    <input type="text" placeholder="Surname" id="lastname">
+                </div>
+                <div class="input-box">
+                    <span class="detials">เลขทะเบียน</span>
+                    <input type="text" placeholder="Registration number" id="เลขทะเบียน" >
+                </div>
+                <div class="input-box">
+                    <span class="detials">ชั้นปีที่</span>
+                    <input type="text" placeholder="Year" id="ชั้นปี" >
+                </div>
+                <div class="input-box">
+                    <span class="detials">สาขาวิชา</span>
+                    <input type="text" placeholder="Major" id="สาขา" >
+                </div>
+                <div class="input-box">
+                    <span class="detials">โทรศัพท์มือถือ</span>
+                    <input type="text" placeholder="Phone number" id = "เบอร์มือถือ">
+                </div>
+                <div class="input-box">
+                    <span class="detials">โทรศัพท์บ้าน (ถ้ามี)</span>
+                    <input type="text" placeholder="Landline (if any)" >
+                </div>
+                <div class="input-box">
+                    <span class="detials">อาจารย์ที่ปรึกษา</span>
+                    <input type="text" placeholder="Advisor" id="advisor" >
+                </div>
+            </div>
+            <div class="title">ที่อยู่อาศัยที่สามารถติดต่อได้</div>
+            <div class="user-details">
+                <div class="input-box2">
+                    <span class="detials">บ้านเลขที่</span>
+                    <input type="text" placeholder="Address"    id="home">
+                </div>
+                <div class="input-box2">
+                    <span class="detials">หมู่ที่</span>
+                    <input type="text" placeholder="Address" id="mooti" >
+                </div>
+                <div class="input-box2">
+                    <span class="detials">แขวง (ตำบล)</span>
+                    <input type="text" placeholder="Address" id="tumbol">
+                </div>
+                <div class="input-box2">
+                    <span class="detials">เขต (อำเภอ)</span>
+                    <input type="text" placeholder="District" id="amphur" >
+                </div>
+                <div class="input-box2">
+                    <span class="detials">จังหวัด</span>
+                    <input type="text" placeholder="Province" id ="province" >
+                </div>
+                <div class="input-box2">
+                    <span class="detials">รหัสไปรษณีย์</span>
+                    <input type="text" placeholder="Postal code" id="รหัสไปรษณีย์" >
+                </div>
+            </div>
+            <div class="title">รายวิชาที่ต้องการเพิ่ม</div>
+            <div class="user-details">
+                <div class="input-box3">
+                    <span class="detials">รหัสวิชา</span>
+                    <input type="text" placeholder="Course code" >
+                </div>
+                <div class="input-box3">
+                    <span class="detials">Section</span>
+                    <input type="text" placeholder="Section" >
+                </div>
+                <div class="input-box3">
+                    <span class="detials">รหัสวิชา</span>
+                    <input type="text" placeholder="Course code" >
+                </div>
+                <div class="input-box3">
+                    <span class="detials">Section</span>
+                    <input type="text" placeholder="Section" >
+                </div>
+                <div class="input-box3">
+                    <span class="detials">รหัสวิชา</span>
+                    <input type="text" placeholder="Course code" >
+                </div>
+                <div class="input-box3">
+                    <span class="detials">Section</span>
+                    <input type="text" placeholder="Section" >
+                </div>
+                <div class="input-box3">
+                    <span class="detials">รหัสวิชา</span>
+                    <input type="text" placeholder="Course code" >
+                </div>
+                <div class="input-box3">
+                    <span class="detials">Section</span>
+                    <input type="text" placeholder="Section" >
+                </div>
+            </div>
+            <div class="title">รายวิชาที่ต้องการถอน</div>
+            <div class="user-details">
+                <div class="input-box3">
+                    <span class="detials">รหัสวิชา</span>
+                    <input type="text" placeholder="Course code" >
+                </div>
+                <div class="input-box3">
+                    <span class="detials">Section</span>
+                    <input type="text" placeholder="Section" >
+                </div>
+                <div class="input-box3">
+                    <span class="detials">รหัสวิชา</span>
+                    <input type="text" placeholder="Course code" >
+                </div>
+                <div class="input-box3">
+                    <span class="detials">Section</span>
+                    <input type="text" placeholder="Section" >
+                </div>
+                <div class="input-box3">
+                    <span class="detials">รหัสวิชา</span>
+                    <input type="text" placeholder="Course code" >
+                </div>
+                <div class="input-box3">
+                    <span class="detials">Section</span>
+                    <input type="text" placeholder="Section" >
+                </div>
+                <div class="input-box3">
+                    <span class="detials">รหัสวิชา</span>
+                    <input type="text" placeholder="Course code" >
+                </div>
+                <div class="input-box3">
+                    <span class="detials">Section</span>
+                    <input type="text" placeholder="Section" >
+                </div>
+            </div>
+            <div class="title">เหตุผลที่ต้องการเพิ่ม-ถอน</div>
+            <div class="user-details">
+                <div class="input-box4">
+                    <input type="text" id="reason">
+                </div>
+            </div>
+            <div class="button">
+                <center><input type="submit" id="submit" onclick = "validateForm()"></center>
+            </div>
+        </form>
+    </div>
+    <script src="student_form_js.js"></script>
+</body>
+</html>

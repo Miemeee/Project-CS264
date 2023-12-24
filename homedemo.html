@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+  <script>
+    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("banner").style.width = "0";
+      document.getElementById("banner").style.marginLeft = "0";
+    }
+  </script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+
+  <meta charset="utf-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  !-->
+  <title>Home | ระบบยื่นคำร้อง</title>
+
+  <link rel="stylesheet" href="homedemo_css.css">
+  <div id="banner" class="banner">
+    <div class="heading">
+      <h2>Home | หน้าหลัก</h2>
+    </div>
+
+    <div class="sidebar">
+      <a href="Login.html"><i class="fa-solid fa-right-from-bracket"></i> กลับหน้า login</a>
+    </div>
+    <div class="logo">
+      <img alt="logo" src="logo.png" width="100px">
+    </div>
+  </div>
+
+  <!-- Load an icon library 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  
+  <!-- The sidebar -->
+  <div class ="boxover1">
+    <p><i class="fa-solid fa-pencil"></i> เลือกหน้าที่ต้องการ ( ใช้เพื่อทดสอบ )</p>
+  </div>
+  <div>
+  <div class ="rcorners1">
+    <a href="home_student.html"> นักศึกษา</a>
+    <p class="smallbox1">Home</p>
+  </div>
+  <div class ="rcorners1" 
+  style="margin-top: -220px;margin-left: 500px">
+  <a href="home_teacher.html"> อาจารย์</a>
+  <p class="smallbox1">Home</p>
+  </div>
+  <div class ="rcorners1" 
+  style="margin-top: -220px;margin-left: 1000px">
+  <a href="home_dean.html"> คณะบดี</a>
+  <p class="smallbox1">Home</p>
+  </div>
+  <div class ="rcorners2" 
+  style="margin-top: -220px;margin-left: 1250px">
+  <a href="Login.html"> Login</a>
+  <p class="smallbox1">back</p>
+  </div>
+  <div>
+    <br><br><br><br><br>
+    <center>
+      <p style="font-size: 30px;">ใช้สำหรับการทดสอบเท่านั้น ภายหลังจากการเชื่อมต่อกับระบบ database แล้ว</p>
+      <p style="font-size: 30px;">การ login จะพา user ท่านนั้นไปยังหน้า home ของตนเองโดยอัตโนมัติ</p>
+    </center>
+  </div>
+</div>
+  
+  <script src="https://kit.fontawesome.com/43a1be4234.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

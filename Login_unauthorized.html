@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+
+
+	
+	<title>Login | ระบบยื่นคำร้อง</title>
+	
+    <link rel="stylesheet" href="login_css.css">
+
+	<title>เข้าสู่ระบบ</title>
+	<div class="banner">
+        <div class="heading">
+            <h2>Login</h2>
+        </div>
+        <div class="logo">
+            <img alt ="logo" src="logo.png" width="100px" > 
+        </div>
+    </div>
+</head>
+<body>
+	<div class="container">
+	<h1 style="color:darkblue; font-family:verdana"><center><b>WELCOME</b></center></h1>
+	<h2 style="color:#B22222; margin-top: 25px;"><center>กรุณาเข้าสู่ระบบด้วยรหัสประจำตัว (นักศึกษา/อาจารย์) </b>และ<b>รหัสผ่าน</b></b></center></h2>
+
+	<form method="post" action="/login" id="login-form" name="login-form" >
+
+		<center><img src="https://www.freeiconspng.com/thumbs/secure-icon-png/lock-icon-17.png" alt = "Image not loading"></center>
+
+
+			<div class="form-group">
+			 <center><input type="text" name="username" id="username" placeholder="รหัสประจำตัว(นักศึกษา/อาจารย์)" class="input-field">
+			</div></center>
+			<center><span id="text" class = "alerttext"></span><br></center>
+
+
+			<div class="form-group">
+			<center><input type="password" name="password" id="password" placeholder="รหัสผ่าน" class="input-field" />
+			</div></center>
+			<center><span id="text2" class = "alerttext"></span><br></center>
+
+
+	<p1><center><a style="color:darkred;">ติดต่อเจ้าหน้าที่ : 012-3456789</a><center></p1>
+	<p1><center><a style="color:darkred;font-size: 20px;">รหัสผิดพลาด กรุณากรอกข้อมูลใหม่อีกครั้ง</a><center></p1>
+	<div class="clearfloat"></div>
+	<br>
+	<center><button class="submitButton" type="submit">Sign in</button></center>
+	</div>
+
+	</form>
+	<!--<form action="/login" method="post">
+		<br><br><label for="username">User name</label><br>
+		 <input type="text" id="username" name="username" placeholder="User name">
+		 <label for="password">Password</label><br>
+		 <input type="password" id="password" name="password" placeholder="Password">
+		<input type="submit"  value="Submit">
+	</form>-->
+
+	<script type="text/javascript" src="login_js.js"></script>
+</body>
+</html>

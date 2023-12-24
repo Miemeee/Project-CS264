@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script>
+        /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+    
+        /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("banner").style.width = "0";
+          document.getElementById("banner").style.marginLeft = "0";
+        }
+      </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exPage</title>
+
+    <link rel="stylesheet" href="exPage_css.css">
+    <div id="banner" class="banner">
+      <div class="heading">
+        <h2>Home | หน้าหลัก</h2>
+      </div>
+      <div class="bell-notification" current-count="8" style="margin-left: 25px; margin-top: 80px;">
+        <i class="fa-solid fa-bell"></i>
+      </div>
+  
+      <div class="sidebar">
+  
+        <a href="registryOffice.html"><i class="fa fa-fw fa-home"></i> หน้าหลัก</a>
+        <a href="registDone.html"><i class="fa-regular fa-file"></i>  ดำเนินการสำเร็จ</a>
+        <a href="Login.html"><i class="fa-solid fa-right-from-bracket"></i> ออกจากระบบ</a>
+      </div>
+      <div class="logo">
+        <img alt="logo" src="logo.png" width="100px">
+      </div>
+    </div>
+</head>
+
+<body>
+
+    <div class ="boxover1">
+        <p><i class="fa-solid fa-file"></i> ประเภท คำร้องทั่วไป</p>
+    </div>
+
+    <br>
+    <img src="picU5.jpg" alt="form" style="width: 1000px; height: 1500px; margin-top: 100px; margin-left: 325px;">
+
+    <form action>
+      <br>
+      <br>
+      <div style="text-align: center;">
+        <label for="emails">ต้องการส่งไปยัง:</label>
+      <input type="email" id="emails" name="emails" size="64" multiple placeholder="  Organization@example.com" list="defaultEmails">
+
+      <datalist id="defaultEmails">
+        <option value="firstOGN@gmail.com"></option>
+        <option value="secondOGN@outlook.com"></option>
+        <option value="thirdOGN@dome.tu.ac.th"></option>
+      </datalist>
+      <br>
+      </div>
+      
+      <br>
+      <div style="text-align: center">
+        <label for="text">ลงชื่อเจ้าหน้าที่สำนักทะเบียน</label>
+        <input type="text" id="nameOffice" name="nameOffice" size="55">
+      </div>
+        <br>
+        <br>
+        <button class="button1" type="submit" id="cancel" onclick="cancelOffice()">ยกเลิกคำร้อง</button>
+        <button class="button2" type="submit" id="confirm" onclick="validateOffice()">ยืนยันการอนุมัติ</button>
+
+    </form>
+  <script src="exPage_js.js"></script>
+  <script src="https://kit.fontawesome.com/43a1be4234.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

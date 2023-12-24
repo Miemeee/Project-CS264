@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <script>
+    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("banner").style.width = "0";
+      document.getElementById("banner").style.marginLeft = "0";
+    }
+  </script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ดำเนินเรื่องตามคำร้อง</title>
+
+    <link rel="stylesheet" href="registerOffice_css.css">
+    <div id="banner" class="banner">
+      <div class="heading">
+        <h2>Home | หน้าหลัก</h2>
+      </div>
+      <div class="bell-notification" current-count="8" style="margin-left: 25px; margin-top: 80px;">
+        <i class="fa-solid fa-bell"></i>
+      </div>
+  
+      <div class="sidebar">
+  
+        <a1 href="#home"><i class="fa fa-fw fa-home"></i> หน้าหลัก</a1>
+        <a href="registDone.html"><i class="fa-regular fa-file"></i>  ดำเนินการสำเร็จ</a>
+        <a href="Login.html"><i class="fa-solid fa-right-from-bracket"></i> ออกจากระบบ</a>
+      </div>
+      <div class="logo">
+        <img alt="logo" src="logo.png" width="100px">
+      </div>
+    </div>
+
+</head>
+<body>
+
+  <div class ="boxover1">
+    <p><i class="fa-solid fa-file"></i> ประเภท</p>
+  </div>
+  <div class ="rcorners1"
+    style="margin-left: 485px;">
+    <br>
+    <p><i class="fa-solid fa-pen-nib fa-3x"></i></p>
+    <br>
+    <a href="UrgentForm.html" style="text-decoration:none;color:black;"> คำร้องเร่งด่วน</a>
+  </div>
+  <div class ="rcorners1"
+    style="margin-left: 735px;margin-top: -220px;">
+    <br>
+    <p><i class="fa-regular fa-pen-to-square fa-3x"></i></p> 
+    <br>
+    <a href="GeneralRequest.html" style="text-decoration:none;color:black;"> คำร้องทั่วไป</a>
+  </div>
+  <div class ="rcorners1"
+    style="margin-left: 985px;margin-top: -220px;">
+    <br>
+    <p><i class="fa-solid fa-pen-fancy fa-3x"></i></p> 
+    <br>
+    <a href="SpecialForm.html" style="text-decoration:none;color:black;"> คำร้องกรณีพิเศษ</a>
+  </div>
+
+  <script src="https://kit.fontawesome.com/43a1be4234.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <title>คำร้องนักศึกษา | ระบบยื่นคำร้อง</title>
+    <link rel="stylesheet" href="dean_request_css.css">
+    <div class="banner">
+        <div class="heading">
+            <h2>คำร้องนักศึกษา</h2>
+        </div>
+        <div class="logo">
+            <img alt ="logo" src="logo.png" width="100px" > 
+        </div>
+    </div>
+    <style>
+       tr {
+            border-radius: 10px;
+            border: 0;
+        }
+        th {
+            color: white;
+            padding: 10px;
+            margin: 0 auto;
+        }
+        td {
+            color: white;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        
+    <div class="clearfix"><tr>
+            <div class="head">
+            <h3 style="color:white; text-align:center; vertical-align: middle; line-height: 60px;">
+                <p>คำร้องนักศึกษา</p>
+            </h3>
+            </div>
+
+            <div class="tail">
+                <h3 style="color:white; text-align:center; vertical-align: middle; line-height: 200px;">
+                    <img alt ="folders" src="Folders-PNG-Download-Image.png" width="20px" >
+                    <a href="">รายละเอียด</a>
+                </h3>
+            </div>
+    </tr></div>
+
+
+    <div class="clearfix"><tr>
+        <br>
+        <div class="head"><h3>
+            <h3 style="color:white; text-align:center; vertical-align: middle; line-height: 60px;">
+                <p>ความคิดเห็น</p>
+            </h3>
+        </h3>
+        </div>
+       
+            <div class="tail2">
+                <div class="image"><img alt ="teacher" src="teacher1.png" width="80px">
+            </div>
+            <h3 style="color:white; text-align:center;">อาจารย์ที่ปรึกษา</h3>
+            <br><p style="color:#575859 ; text-align:center;">ความเห็นอาจารย์ที่ปรึกษา</p></div>
+
+            <div class="tail2">
+                <div class="image"><img alt ="teacher" src="teacher2.png" width="80px">
+            </div>
+            <h3 style="color:white; text-align:center;">เจ้าหน้าที่คณะ</h3>
+            <br><p style="color:#575859; text-align:center;">ความเห็นเจ้าหน้าที่คณะ</p></div>
+
+            <div class="tail2">
+                <div class="image"><img alt ="teacher" src="teacher1.png" width="80px">
+            </div>
+            <h3 style="color:white; text-align:center;">อาจารย์ผู้สอน</h3>
+            <br><p style="color:#575859; text-align:center;">ความเห็นอาจารย์ผู้สอน</p></div>
+
+        </div>
+    </tr>
+
+    </table>
+
+    <div class="footer">
+        
+        <div class="choice" >
+            <input type="radio" id="choice1" name="choice" value="y">อนุมัติ
+            <input type="radio" id="choice2" name="choice" value="n">ไม่อนุมัติ
+        </div>
+        
+    </div>
+    <div class="footer">
+        <div class="submit" >
+            <button type="submit" onclick=submitCheck()>ยืนยัน</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="dean_request_js.js"></script>
+</body>
+</html>

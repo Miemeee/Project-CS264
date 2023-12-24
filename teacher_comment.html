@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <title>ลงความเห็นเอกสารยื่นคำร้อง</title>
+    <link rel="stylesheet" href="teacher_comment_css.css">
+    <div class="banner">
+        <div class="heading">
+            <h2>ลงความเห็นเอกสารยื่นคำร้อง</h2>
+        </div>
+        <div class="logo">
+            <image alt ="logo" src="logo.png" width="100px" > 
+        </div>
+    </div>    
+</head>
+<body>
+    <div class="frame">
+        <div class="middle"></div>
+        <div class="status">
+            <strong>ยังไม่ยืนยัน</strong>
+        </div>
+        <div class="pic">
+            <strong>เอกสารของนักศึกษา</strong>
+        </div>
+        <div class="txt">
+            <strong>ช่องพิมพ์ความเห็น*</strong>
+        </div>
+        <div class="pic_u5">
+            <a target="_blank" href="picU5.jpg">
+                <img src="picU5.jpg" alt="เอกสารของนักศึกษา" style="width:500px">
+            </a>
+            <!-- <img src="picU5.jpg" width="500px" alt="เอกสารของนักศึกษา"> -->
+        </div>
+        <div class="write_here">
+            <textarea id="reason" name="reason" rows="20" cols="70" required></textarea>
+            <br>
+        </div>
+        <div class="summit">
+            <input type="button" class="button" onclick=submitCheck() value="SUBMIT">
+        </div>
+    </div>
+
+    <script type="text/javascript" src="teacher_comment_js.js"></script>
+</body>
+</html>
+
+  

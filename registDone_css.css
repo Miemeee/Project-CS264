@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+.banner{
+      width: 100%;
+      height: 125px;
+      background: linear-gradient(135deg , #FF8F00, #ffc579);
+      display: flex;
+}
+.banner .heading{
+      margin-left:30px;
+      margin-top: 75px;
+}
+.banner .logo{
+      margin-left: auto;
+      margin-right: 25px;
+      margin-top: 12px;
+}
+
+/* Style the sidebar - fixed full height */
+.sidebar {
+  margin-top: 125px;
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(38, 37, 37);
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a1 {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f5eeee;
+  display: block;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Style the main content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  
+  .rcorners1 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 22px;
+    z-index: -1;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 140px;
+    border-radius: 25px;
+    background: #ffd027;
+    padding: 20px;
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .boxover1{
+    font-family: 'Prompt', sans-serif;
+    color: #f1f1f1;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 50px;
+    border-radius: 25px;
+    background: #128726;
+    padding: 10px;
+    width: 1000px;
+    height: 30px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .boxnamelist1 {
+    font-family: 'Prompt', sans-serif;
+    color: #483838;
+    position: absolute;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 540px;
+    margin-top: 100px;
+    border-radius: 15px;
+    background: #ffc400;
+    padding: 12px;
+    width: 715px;
+    height: 60px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .boxnamelist2 {
+    font-family: 'Prompt', sans-serif;
+    color: #483838;
+    position: absolute;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 540px;
+    margin-top: 200px;
+    border-radius: 15px;
+    background: #ffc400;
+    padding: 12px;
+    width: 715px;
+    height: 60px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .boxnamelist3 {
+    font-family: 'Prompt', sans-serif;
+    color: #483838;
+    position: absolute;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 540px;
+    margin-top: 300px;
+    border-radius: 15px;
+    background: #ffc400;
+    padding: 12px;
+    width: 715px;
+    height: 60px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .boxnamelist4 {
+    font-family: 'Prompt', sans-serif;
+    color: #483838;
+    position: absolute;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 540px;
+    margin-top: 400px;
+    border-radius: 15px;
+    background: #ffc400;
+    padding: 12px;
+    width: 715px;
+    height: 60px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  /* bell notification */
+  .bell-notification {
+    color:yellow;
+    position: relative;
+  }
+
+  .fa-bell {
+    font-size: 30px;
+    }
+
+    .bell-notification::after {
+      content: attr(current-count);
+      position: absolute;
+      top: 0;
+      right: -40%;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      border: 3px solid #FF8F00;
+    }
+
+    /* userIcon */
+    .userIcon1 {
+      position: absolute;
+      margin-left: 450px;
+      margin-top: 110px;
+      width: 60px;
+      height: 60px;
+      border-radius: 25%;
+      color: #2fdc15;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid #f1f1f1;
+    }
+    .userIcon2 {
+      position: absolute;
+      margin-left: 450px;
+      margin-top: 210px;
+      width: 60px;
+      height: 60px;
+      border-radius: 25%;
+      color: #2fdc15;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid #f1f1f1;
+    }
+    .userIcon3 {
+      position: absolute;
+      margin-left: 450px;
+      margin-top: 310px;
+      width: 60px;
+      height: 60px;
+      border-radius: 25%;
+      color: #2fdc15;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid #f1f1f1;
+    }
+    .userIcon4 {
+      position: absolute;
+      margin-left: 450px;
+      margin-top: 410px;
+      width: 60px;
+      height: 60px;
+      border-radius: 25%;
+      color: #2fdc15;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid #f1f1f1;
+    }
+
+    .date {
+      font-family: 'Prompt', sans-serif;
+      color: #000000;
+      position: absolute;
+      font-size: 20px;
+      text-align: left;
+      margin-left: 1100px;
+      margin-top: 90px;
+    }
+
+    .time {
+      margin-left: 640px;
+      margin-top: -15px;
+    }

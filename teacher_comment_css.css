@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 125px;
+    background: linear-gradient(135deg , #FF8F00, #ffc579);
+    display: flex;
+}
+.banner .heading{
+    margin-left:30px;
+    margin-top: 75px;
+}
+.banner .logo{
+    margin-left: auto;
+    margin-right: 25px;
+    margin-top: 12px;
+}
+.status {
+    position: relative;
+    max-width: 110px;
+    background-color: rgb(255, 75, 75);
+    box-sizing: border-box;
+    margin-left: 10px;
+    /*border-radius: 25px;*/
+    font-size: 19px;
+    text-align: center;
+}
+.frame {
+    position: relative;
+    width: 100%;
+    height: 850px;
+    background-color: #8D8E96;
+    /*margin-top: 30px;
+    margin-left: 35px;*/
+    /*padding: 40px;
+    box-shadow: inset 0 0 0 40px #8D8E96;
+    border-radius: 25px;*/
+    font-size: 26px;
+    display: fixed;
+}
+.frame .pic {
+    position: absolute;
+    margin-left: 298.5px;
+    margin-top: 50px;
+
+    text-align: center;
+}
+.frame .txt {
+    position: absolute;
+    margin-left: 1070px;
+    margin-top: 150px;
+
+    text-align: center;
+}
+.frame .pic_u5{
+    position: absolute;
+    margin-left: 135px;
+    margin-top: 100px;
+    height: auto;
+}
+.frame .pic_u5 img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.frame .write_here{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 200px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.frame .summit {
+    position: absolute;
+    margin-left: 1340px;
+    margin-top: 650px;
+}
+.frame .button {
+    background-color: #FF8F00;
+    border: none;
+    color: #f9e2c3;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
